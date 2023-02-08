@@ -1,0 +1,27 @@
+body{
+    background-color:red;
+}
+p{
+    background-color:limegreen;
+    margin:1rem;
+    padding:1rem;
+}
+h3{
+    color:red;
+    background-color:blue;
+}
+p{
+    color:rgb(87, 14, 205);
+}
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{font-size: small;}
+P{font-size: 2rem;}
+h2{font-weight: 600;}
+p{text-align:center;}
+p{
+    margin: 1rem 2rem
+}
+p{
+    padding: 1rem 2rem 3rem 4rem
+}
