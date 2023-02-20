@@ -1,0 +1,16 @@
+body{background-image:url(images06/ranchhorsesbackground.jpg)}
+body{background-repeat: repeat}
+body{background-size:cover}
+body{background-position:top}
+body {font-family:Verdana, Geneva, Tahoma, sans-serif; margin: 0}
+header {background-color: #275218; color: #fff;}
+header>img {max-width: 6rem; position: absolute; margin: 1rem}
+header>h1 {display: inline-block; margin: 1rem; vertical-align: top;}
+header>nav>a {background-color: #fff; color: #275218; text-decoration: none; padding: 1rem; display: inline-block;}
+header>nav {padding-bottom: 1rem; padding-left: 1rem; padding-top: 0rem; padding-right: 0rem;}
+header>nav>a:hover {background-color: #275218; color: #fff; border: 1px solid #fff}
+header>nav>a {border: 1px solid transparent}
+main {background-color: #ebebeb; padding: 1rem; max-width: 60rem; margin: 1rem auto}
+h2 {background-color: #275218; color: #fff; padding: 1rem; margin: 0 0 1rem}
+img{display: block; margin: auto;}
+iframe{display: block; margin: auto;}
