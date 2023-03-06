@@ -1,0 +1,7 @@
+body{background-image:url(images10/backgroundimagelab10.svg);background-size:cover;background-repeat: no-repeat;margin: 0;color: #38302e; font-family:serif}
+header{background-color: #b4c292;display:flex;flex-direction:row;align-items:center;justify-content:space-between; padding: 2rem}
+nav>a{color: #38302e;font-size:24px; text-decoration: none;padding: 1rem 1rem;font-weight: 900;display: inline-block}
+nav>a:hover{color: #38302e;text-decoration:none;text-shadow: 1px 1px 1px}
+.welcometothegallopinggoose h2{color: black;font-size: 60px; text-align: center; background-color: rgba(255,255,255,.75);}
+main{background-color: rgba(255,255,255,.5);padding: 1rem 1rem 1rem 1rem;}
+.menu h2{color: #B4654A; text-align: center;font-size:36px}
