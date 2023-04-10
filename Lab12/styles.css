@@ -1,0 +1,37 @@
+body{
+    padding:5rem;
+    background-color: darkolivegreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    background-color: darkgreen;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ffffe2;
+}
+tr:nth-child(odd){
+    background-color: #ffffe4;
+}
+td{
+    padding:.5rem;
+}
+th{
+    padding:.5rem;
+}
+.title{
+    font-size: 2rem;
+    color:goldenrod;
+}
+table{
+    border-spacing: 0;
+}
+.character{
+    background-color: #023802;
+}
+.character:hover{
+    background-color: #022502;
+}
+tr:hover{
+    background-color: #D8D8B6;
+}
