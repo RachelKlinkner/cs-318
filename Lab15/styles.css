@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(9,2,29);
+    width:100vw;
+    height:100vh;
+    margin:0;
+}
+.rover{
+    width:30rem;
+    height:30rem;
+    position:fixed;
+    display:block;
+}
+.mars{
+    position:fixed;
+    width:100%;
+    height:10.5rem;
+    z-index:-1;
+    background-color: #913a25;
+    border-top: 1rem, solid, #d15f44;
+    bottom:0;
+}
+.planet{
+    width:5rem;
+    height:5rem;
+    position:fixed;
+    z-index:-2;
+}
+.rover{
+    bottom:10.5rem;
+    left:10%;
+}
+.rover:after{
+    content:url(images15/dish.svg);
+    width:10rem;
+    height:10rem;
+    position:absolute;
+    left:3rem;
+    top:2rem;
+}
+.planet{
+    animation:rise 10s, ease-in 1;
+}
+@keyframes rise{
+    from{
+        bottom:0;
+        transform: rotate(0) scale(1)
+    }
+    to{
+        bottom:75%;
+        transform:rotate(180deg) scale(2);
+    }
+}
+.planet{
+    animation-fill-mode: forwards;
+    left:30%;
+}
+.rover:after{
+    z-index:1;
+    transform-origin:center bottom;
+    animation:rotate 2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate-reverse;
+}
+@keyframes rotate{
+    from{
+        transform:rotate(-5deg)
+    }
+    to{
+        transform:rotate(-33deg)
+    }
+}
+.rover{
+    animation-name:move;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:playing;
+}
+@keyframes move{
+    from{
+        left:50px;
+    }
+    to{
+        left:80%;
+    }
+}
+.star{
+    animation-name:rotate;
+    animation-duration:3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-play-state:playing;
+}
+.star{
+    display: inline-flex;
+    scale:15%;
+}
