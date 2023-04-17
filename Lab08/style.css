@@ -3,7 +3,7 @@ header{background-color: rgba(39, 33, 60, .70);display: flex;flex-direction: col
 nav>a{color: #e2512d;text-decoration: none;padding: 1rem 2rem;font-weight: 900;display: inline-block}
 nav>a:hover{color: #A33B20;text-decoration: underline}
 header{position: fixed;top: 0;width: 100%;z-index:0}
-.animal-background{position:fixed;top:-12rem;width:200%;left:-51%;height:50rem;z-index:-1;background-image:url(images08/animal.jpg);background-size:cover}
+.animal-background{position:fixed;top:-12rem;width:200%;left:-51%;height:50rem;z-index:1;background-image:url(images08/animal.jpg);background-size:cover}
 section>h2{text-align: center;padding: 13rem 0;text-shadow: 2px 2px 2px #27213C;background-size: cover;margin: 0}
 section{background-color: #A33B20}
 .animals{background-color: transparent}
