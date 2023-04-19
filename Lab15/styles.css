@@ -86,14 +86,28 @@ body{
         left:80%;
     }
 }
-.star{
-    animation-name:rotate;
-    animation-duration:3s;
+.rocket{
+    animation-name:fly;
+    animation-duration:5s;
     animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
+    animation-iteration-count:initial;
     animation-play-state:playing;
 }
-.star{
-    display: inline-flex;
-    scale:15%;
+.rocket{
+    position: fixed;
+    right:0;
+    bottom:2rem;
+    width:10%;
+}
+@keyframes fly{
+    from{
+        bottom:2rem;
+        right:0;
+        transform:rotate(0);
+    }
+    to{
+        bottom:100%;
+        right:20rem;
+        transform:rotate(-30deg)
+    }
 }
