@@ -16,7 +16,7 @@ body{
     height:10.5rem;
     z-index:-1;
     background-color: #913a25;
-    border-top: 1rem, solid, #d15f44;
+    border-top: 1rem solid #d15f44;
     bottom:0;
 }
 .planet{
