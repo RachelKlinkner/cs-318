@@ -1,0 +1,83 @@
+/*Carosel Component*/
+.carosel{
+	margin:3rem auto 1rem;
+	position:relative;
+	max-width:80%;
+}
+
+.carosel .images{
+	overflow:hidden;
+	position:relative;
+  width: 360px;
+  max-width: 100%;
+}
+
+.carosel .very-wide{
+	position:absolute;
+	left:0;
+	transition:left .2s;
+  display: flex;
+  align-items: center;
+}
+
+.carosel>div>div>div{
+  width: 360px;
+	margin:0 8px 0 0;
+
+}
+
+.carosel,
+.carosel .images,
+.carosel>div>div>div{
+	height:240px;
+}
+.carosel img{
+  max-height: 240px;
+  box-shadow: 2px 2px 2px #00000035;
+  max-width: 100%;
+
+}
+
+.carosel .arrow-left, .carosel .arrow-right{
+  cursor:pointer;
+	position:absolute;
+	top:35%;
+  color:white;
+}
+.carosel .arrow-left{
+	left:-3rem;
+}
+.carosel .arrow-right{
+	right:-3rem;
+}
+.carosel>div>div>div{
+  position: relative;
+}
+
+/*This is the words that appear over the image on hover*/
+.overlay{
+  display:none;
+  position: absolute;
+  top:0;
+  left:0;
+  padding:1rem;
+  width:calc(360px - 2rem);
+  height: 100%;
+  background-color:rgba(0, 0, 0, .5);
+}
+.carosel>div>div>div:hover .overlay{
+  display: block;
+}
+@media (min-width:1200px){
+  .carosel{
+		width:736px;
+	}
+	.carosel .images{
+		width:unset;
+	}
+}
+@media (min-width:1800px){
+	.carosel{
+		width:1104px;
+	}
+}
